@@ -1,0 +1,35 @@
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Flutter (from flutter_project/.gitignore)
+flutter_project/.dart_tool/
+flutter_project/.flutter-plugins
+flutter_project/.flutter-plugins-dependencies
+flutter_project/.metadata
+flutter_project/.packages
+flutter_project/.pub-cache/
+flutter_project/.pub/
+flutter_project/build/
+flutter_project/coverage/
+
+# Android specific artifacts
+flutter_project/android/app/debug
+flutter_project/android/app/profile
+flutter_project/android/app/release
+
+# Miscellaneous/OS
+.DS_Store
+Thumbs.db
+*.log
+*.class
+*.pyc
+*.swp
+.history
+
+# Symbolication/Obfuscation
+app.*.symbols
+app.*.map.json
