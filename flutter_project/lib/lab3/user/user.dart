@@ -5,7 +5,7 @@ class User {
   User({required this.name, required this.email});
 
   // Factory constructor nhận vào 1 map dữ liệu thô và trả về 1 đối tượng User hoàn chỉnh
-  factory User.fromJson(Map<String, dynamic> json){
+  factory User.fromJson(Map<String, dynamic> json){ // Kiểm soát việc trả về 1 object(Có thể thêm logic trong code)
     return User(
       name: json['name'] as String,
       email: json['email'] as String,
